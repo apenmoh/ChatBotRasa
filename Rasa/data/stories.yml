@@ -4,27 +4,36 @@ stories:
 
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
 
 - story: sad path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
 
-- story: sad path 2
+- story: pedir una receta
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_recipe
+    - action: utter_ask_recipe
+
+- story: pedir consejo de cocina
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_cooking_tips
+    - action: utter_ask_cooking_tips
+
+- story: sustitución de ingredientes
+  steps:
+    - intent: ask_ingredient_substitution
+    - action: utter_ask_ingredient_substitution

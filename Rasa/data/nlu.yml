@@ -3,89 +3,148 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
+    - hola
     - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - buenos días
+    - buenas tardes
+    - hola, ¿qué tal?
+    - ¿cómo estás?
+    - qué onda
+    - buenas noches
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - adiós
+    - hasta luego
+    - nos vemos
+    - chao
+    - hasta pronto
+    - que tengas un buen día
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - sí
+    - claro
+    - por supuesto
+    - de acuerdo
+    - correcto
+    - exactamente
+    - así es
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - nunca
+    - no lo creo
+    - no, gracias
+    - para nada
+    - ni de broma
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - perfecto
+    - genial
+    - increíble
+    - me siento como un chef
+    - maravilloso
+    - estoy muy bien
+    - estoy emocionado por cocinar
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - mi comida salió mal
+    - estoy triste
+    - no me siento bien
+    - estoy decepcionado con mi receta
+    - muy triste
+    - mi platillo no quedó bien
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - ¿eres un bot?
+    - ¿eres humano?
+    - ¿estoy hablando con un bot?
+    - ¿quién te creó?
+    - dime algo sobre ti
+
+- intent: ask_recipe
+  examples: |
+    - ¿Cómo hago pan casero?
+    - ¿Me puedes dar una receta de pasta?
+    - ¿Qué necesito para hacer galletas?
+    - Quiero cocinar algo rápido, ¿qué me recomiendas?
+    - ¿Tienes recetas sin gluten?
+    - ¿Cómo preparo una ensalada César?
+    - Dame una receta para la cena
+    - ¿Cómo puedo hacer arroz con leche?
+    - ¿Cuál es la receta de una buena sopa de pollo?
+    - ¿Cómo hago una pizza casera?
+    - Necesito una receta de postre
+    - Quiero hacer algo fácil, ¿qué me recomiendas?
+    - ¿Sabes una receta para hamburguesas?
+    - ¿Cómo se hace una tortilla española?
+    - ¿Me enseñas a hacer sushi?
+
+- intent: ask_cooking_tips
+  examples: |
+    - ¿Cómo hago que mi carne quede jugosa?
+    - ¿Cuál es el secreto para una buena pizza?
+    - ¿Cómo evito que los huevos se peguen en la sartén?
+    - ¿Cómo puedo hacer que mi pan quede más esponjoso?
+    - ¿Cómo se hace una buena reducción de salsa?
+    - ¿Qué debo hacer si mi comida está muy salada?
+    - ¿Cuál es el mejor aceite para freír?
+    - ¿Cómo saber si un huevo está fresco?
+    - ¿Cómo lograr una masa perfecta para empanadas?
+    - ¿Qué hago si mi arroz queda pegajoso?
+    - ¿Cómo evitar que la pasta se pase de cocción?
+    - ¿Cómo conservar los alimentos por más tiempo?
+    - ¿Cuál es el truco para que las verduras mantengan su color?
+    - ¿Cómo puedo hacer una mayonesa casera sin que se corte?
+
+- intent: ask_ingredient_substitution
+  examples: |
+    - No tengo mantequilla, ¿qué puedo usar?
+    - ¿Puedo sustituir el azúcar por miel?
+    - ¿Qué puedo usar en lugar de crema de leche?
+    - No tengo levadura, ¿qué hago?
+    - ¿Qué puedo usar si no tengo huevo?
+    - Me falta harina, ¿qué alternativa tengo?
+    - No tengo leche, ¿con qué la puedo reemplazar?
+    - ¿Puedo usar aceite en lugar de manteca?
+    - ¿Qué puedo usar en lugar de queso crema?
+    - ¿Cómo puedo reemplazar la sal en una receta?
+    - No tengo vinagre, ¿qué otra opción tengo?
+    - No tengo yogur, ¿qué otra cosa puedo usar?
+    - Me falta caldo de pollo, ¿puedo usar otra cosa?
+    - ¿Qué puedo usar en vez de pan rallado?
+
+- intent: ask_cooking_techniques
+  examples: |
+    - ¿Cómo hago una salsa bechamel?
+    - ¿Cuál es la mejor manera de cortar cebollas sin llorar?
+    - ¿Cómo se cocina un filete a término medio?
+    - ¿Qué significa sofreír?
+    - ¿Cómo se hace una emulsión?
+    - ¿Qué es la cocción al vacío?
+    - ¿Cómo se usa un baño maría?
+    - ¿Qué es blanquear verduras?
+    - ¿Cómo puedo hacer un caramelo perfecto?
+    - ¿Cuál es la técnica correcta para flambear?
+    - ¿Cómo hago para que mis papas fritas queden crujientes?
+    - ¿Cómo se tempera el chocolate?
+    - ¿Cuál es la mejor forma de batir claras de huevo?
+    - ¿Cómo puedo hacer una reducción de vino?
+
+- intent: ask_food_preservation
+  examples: |
+    - ¿Cómo guardo los vegetales en la nevera?
+    - ¿Cuánto tiempo dura la carne en el refrigerador?
+    - ¿Cómo saber si un alimento está en mal estado?
+    - ¿Cuál es la mejor forma de congelar pan?
+    - ¿Cómo evitar que el arroz cocido se ponga duro?
+    - ¿Puedo congelar leche?
+    - ¿Cuál es la mejor forma de almacenar especias?
+    - ¿Cómo hago para que la fruta no se oxide?
+    - ¿Cuánto dura el pescado en la nevera?

@@ -8,26 +8,38 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_recipe
+  - ask_cooking_tips
+  - ask_ingredient_substitution
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "¡Hola! ¿En qué puedo ayudarte hoy? ¿Buscas una receta o algún consejo de cocina?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Aquí tienes algo para animarte:"
+      image: "https://cdn.pixabay.com/photo/2014/04/11/13/26/tomatoes-321671_640.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "¿Te ayudó eso?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "¡Genial, sigue así!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "¡Hasta luego! ¡Que tengas un buen día!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "Soy un bot especializado en cocina, desarrollado con Rasa."
+
+  utter_ask_recipe:
+    - text: "¡Claro! ¿Qué tipo de receta buscas? ¿Dulce, salada, vegetariana, rápida?"
+
+  utter_ask_cooking_tips:
+    - text: "Un gran consejo de cocina es siempre probar lo que cocinas en cada paso. ¿Sobre qué necesitas un tip en particular?"
+
+  utter_ask_ingredient_substitution:
+    - text: "Si no tienes un ingrediente, dime cuál y te diré una alternativa adecuada."
 
 session_config:
   session_expiration_time: 60

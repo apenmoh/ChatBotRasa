@@ -4,10 +4,25 @@ rules:
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+    - intent: goodbye
+    - action: utter_goodbye
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+    - intent: bot_challenge
+    - action: utter_iamabot
+
+- rule: responder a solicitud de recetas
+  steps:
+    - intent: ask_recipe
+    - action: utter_ask_recipe
+
+- rule: responder a solicitud de consejos de cocina
+  steps:
+    - intent: ask_cooking_tips
+    - action: utter_ask_cooking_tips
+
+- rule: responder a sustitución de ingredientes
+  steps:
+    - intent: ask_ingredient_substitution
+    - action: utter_ask_ingredient_substitution

@@ -1,6 +1,6 @@
 # This file contains the different endpoints your bot can use.
 rest:
-  url: "http:\\172.26.43.40:5005/rest/webhook"
+  url: "http://172.26.43.40:5005/webhooks/rest/webhook"
   cors: "*"
 
 # Server where the models are pulled from.
