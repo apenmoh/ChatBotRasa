@@ -10,7 +10,10 @@ Este es un chatbot desarrollado en Flutter que ayuda a los usuarios a encontrar 
 ✔ **Conexión con Rasa** para procesar preguntas y generar respuestas.  
 
 ## 📸 Capturas de Pantalla  
-_Agrega imágenes aquí para mostrar la interfaz._
+![image](https://github.com/user-attachments/assets/1935243e-64d1-4438-9710-050de661a644)
+![Uploading image.png…]()
+
+
 
 ---
 
