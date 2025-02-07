@@ -11,7 +11,7 @@ Este es un chatbot desarrollado en Flutter que ayuda a los usuarios a encontrar 
 
 ## 📸 Capturas de Pantalla  
 ![image](https://github.com/user-attachments/assets/1935243e-64d1-4438-9710-050de661a644)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b8f1a335-cbfa-456c-967b-f08be32b61ce)
 
 
 
