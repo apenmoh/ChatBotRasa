@@ -28,5 +28,5 @@ flutter/material.dart --> 	UI de Flutter
 
 ### 2️⃣ Clonar el repositorio  
 ```bash
-git clone https://github.com/tu-usuario/chatbot-cocina.git
+git clone https://github.com/apenmoh/chatbot-cocina.git
 cd chatbot-cocina
