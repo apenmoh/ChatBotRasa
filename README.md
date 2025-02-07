@@ -9,9 +9,6 @@ Este es un chatbot desarrollado en Flutter que ayuda a los usuarios a encontrar 
 ✔ **Interacción por texto y voz** (reconocimiento y síntesis de voz).  
 ✔ **Conexión con Rasa** para procesar preguntas y generar respuestas.  
 
-## 📸 Capturas de Pantalla  
-_Agrega imágenes aquí para mostrar la interfaz._
-
 ---
 
 ## 🛠️ Instalación y Configuración  

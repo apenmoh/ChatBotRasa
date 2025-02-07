@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  '¡Bienvenido a ChefBot! 🍽️',
+                  '¡Bienvenido a ChefBot!',
                   style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white),
                   textAlign: TextAlign.center,
                 ),

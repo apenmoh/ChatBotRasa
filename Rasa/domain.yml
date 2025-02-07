@@ -11,35 +11,68 @@ intents:
   - ask_recipe
   - ask_cooking_tips
   - ask_ingredient_substitution
+  - ask_recipe_by_ingredient
+  - ask_recipe_by_diet
+  - ask_cooking_time
+  - ask_kitchen_tools
+  - ask_storage_tips
+  - ask_food_pairing
 
 responses:
   utter_greet:
-    - text: "¡Hola! ¿En qué puedo ayudarte hoy? ¿Buscas una receta o algún consejo de cocina?"
+    - text: "¡Hola! Soy tu asistente de cocina. ¿Qué te gustaría cocinar hoy?"
+    - text: "¡Hola, chef! ¿Necesitas una receta o un consejo de cocina?"
+    - text: "¡Bienvenido! Estoy aquí para ayudarte a cocinar algo delicioso. ¿Qué se te antoja?"
 
   utter_cheer_up:
-    - text: "Aquí tienes algo para animarte:"
-      image: "https://cdn.pixabay.com/photo/2014/04/11/13/26/tomatoes-321671_640.jpg"
+    - text: "¡Ánimo! Tal vez cocinar algo delicioso te ayude. ¿Te gustaría una receta especial?"
+      image: "https://cdn.pixabay.com/photo/2017/03/13/12/07/cooking-2132874_640.jpg"
+    - text: "Aquí tienes un plato que puede mejorar tu ánimo 🍽️. ¿Te gustaría prepararlo?"
+      image: "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_640.jpg"
 
   utter_did_that_help:
-    - text: "¿Te ayudó eso?"
+    - text: "¿Te sirvió esa información? ¡Estoy aquí para ayudarte con más!"
 
   utter_happy:
-    - text: "¡Genial, sigue así!"
+    - text: "¡Eso es genial! La cocina siempre nos hace felices. ¿Quieres intentar otra receta?"
 
   utter_goodbye:
-    - text: "¡Hasta luego! ¡Que tengas un buen día!"
+    - text: "¡Hasta luego! Que tengas un día delicioso 🍽️"
+    - text: "¡Nos vemos! No olvides probar nuevas recetas 🎂"
+    - text: "¡Adiós, chef! Espero verte pronto en la cocina 👨‍🍳👩‍🍳"
 
   utter_iamabot:
-    - text: "Soy un bot especializado en cocina, desarrollado con Rasa."
+    - text: "Soy tu asistente de cocina, listo para ayudarte a cocinar y aprender nuevas recetas."
 
   utter_ask_recipe:
     - text: "¡Claro! ¿Qué tipo de receta buscas? ¿Dulce, salada, vegetariana, rápida?"
+    - text: "¿Buscas una receta en particular o prefieres que te recomiende algo según los ingredientes que tienes?"
 
   utter_ask_cooking_tips:
-    - text: "Un gran consejo de cocina es siempre probar lo que cocinas en cada paso. ¿Sobre qué necesitas un tip en particular?"
+    - text: "¡Gran elección! ¿Quieres consejos sobre técnicas de cocina, preparación de alimentos o conservación?"
+    - text: "Siempre es bueno aprender nuevos trucos en la cocina. ¿Qué tipo de consejo necesitas?"
 
   utter_ask_ingredient_substitution:
-    - text: "Si no tienes un ingrediente, dime cuál y te diré una alternativa adecuada."
+    - text: "Si te falta un ingrediente, dime cuál y te sugeriré una alternativa adecuada."
+    - text: "En la cocina siempre hay soluciones. ¿Qué ingrediente necesitas sustituir?"
+
+  utter_ask_recipe_by_ingredient:
+    - text: "¡Interesante! Dime los ingredientes que tienes y te sugeriré una receta con ellos."
+
+  utter_ask_recipe_by_diet:
+    - text: "Claro, ¿sigues una dieta específica? (vegetariana, vegana, sin gluten, keto, etc.)"
+
+  utter_ask_cooking_time:
+    - text: "¿Cuánto tiempo tienes para cocinar? Puedo sugerirte recetas rápidas o de larga cocción."
+
+  utter_ask_kitchen_tools:
+    - text: "Los utensilios adecuados pueden hacer la diferencia. ¿Buscas recomendaciones para cuchillos, sartenes o electrodomésticos?"
+
+  utter_ask_storage_tips:
+    - text: "Almacenar bien los alimentos es clave. ¿Quieres consejos sobre refrigeración, congelación o conservación de productos frescos?"
+
+  utter_ask_food_pairing:
+    - text: "¡Una buena combinación de sabores lo cambia todo! Dime un ingrediente y te sugeriré con qué combinarlo."
 
 session_config:
   session_expiration_time: 60

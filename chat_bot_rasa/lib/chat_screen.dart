@@ -99,7 +99,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orangeAccent,
-        title: Text('Asistente de Cocina 🍽️'),
+        title: Text('Asistente de Cocina '),
         centerTitle: true,
       ),
       body: Container(
@@ -124,7 +124,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        '👨‍🍳 Pregunta sobre recetas o ingredientes:',
+                        ' Pregunta sobre recetas o ingredientes:',
                         style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                       SizedBox(height: 10),
@@ -136,7 +136,7 @@ class _ChatScreenState extends State<ChatScreen> {
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Text(
-                            '🍲 Respuesta: $_response',
+                            'Respuesta: $_response',
                             style: TextStyle(fontSize: 16),
                           ),
                         ),
